@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Libreria iconos web https://ionic.io -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <title>Contacto</title>
+</head>
+<body class="fondo-neutro">
+    <div class="container center">
+        <header>
+            <div class="box1">
+                <a href="index.html">
+                    <h1 class="hidden-mobile text-center">Patricia Gutiérrez Rivas</h1>
+                    <h1 class="hidden-tablet-desktop text-center">Patricia G. R.</h1>
+                </a>
+            </div>
+            <div class="box2">
+                <nav class="menu-wrapper center">
+                    <ion-icon class="menu-icon" name="menu-outline"></ion-icon>
+                    <div class="menu">
+                        <div class="menu-item">
+                            <a href="index.html"><ion-icon name="git-network-outline"></ion-icon> Inicio</a>
+                        </div>
+                        <div class="menu-item">
+                            <a href="quienSoy.html"><ion-icon name="git-commit-outline"></ion-icon> Quién soy</a>
+                        </div>
+                        <div class="menu-item">
+                            <a href="cv.html"><ion-icon name="git-branch-outline"></ion-icon> CV</a>
+                        </div>
+                        <div class="menu-item">
+                            <a href="proyectos.html"><ion-icon name="git-compare-outline"></ion-icon> Proyectos</a>
+                        </div>
+                        <div class="menu-item">
+                            <a href="contacto.html"><ion-icon name="git-merge-outline"></ion-icon> Contacto</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="flex center text-center font-1-5">
+            <form action="mailto:“pgutierrezrivas@gmx.es" method="post" id="form-box" name="form-box">
+                <div class="mb-30">
+                    <p>Si quieres ponerte en contacto conmigo,
+                        <br> puedes enviarme un mensaje rellenando el siguiente formulario 
+                        <br>👇</p>
+                </div>
+                <div class="form-data">
+                        <label for="nombre">Tu Nombre *</label><br>
+                        <input type="text" id="data" name="nombre" required><br>
+                        <label for="email">Tu email *</label><br>
+                        <input type="text" id="data" name="email" required><br>
+                    <p>
+                        <label for="mensaje">Mensaje *</label><br>
+                        <textarea id="mensaje" name="mensaje" required rows="5" cols="21"></textarea>
+                    </p>
+                    <button type="submit" value="Enviar">Enviar</button>
+                    <button type="reset" value="Borrar">Borrar</button>
+                    <p class="required">* los campos son obligatorios.</p>
+                </div>
+            </form>
+
+        </section>
+
+        <footer class="text-center">
+            <div class="social-media">
+                <a href="mailto:“pgutierrezrivas@gmx.es" target=“_blank”><ion-icon name="mail-outline"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/pgutierrezrivas/" target=“_blank”><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://github.com/patriciagr89" target=“_blank”><ion-icon name="logo-github"></ion-icon></a>
+            </div>
+            <div class="copyright">
+                <p>&copy;2024 Patricia Gutierrez Rivas CFGS DAW</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
