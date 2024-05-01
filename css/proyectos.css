@@ -69,3 +69,6 @@ h3 {
     color: white;
     transition: 0.5s;
 }
+.disabled {
+    background-color: rgb(207, 202, 202);
+}
