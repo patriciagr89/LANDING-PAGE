@@ -1,7 +1,6 @@
 .text-box {
     max-width: 570px;
     flex-grow: 1;
-    /*border: 2px solid burlywood;*/
 }
 .text-box h2 {
     text-transform: uppercase;
@@ -39,7 +38,6 @@
 }
 .img-box {
     flex-grow: 2;
-    /*border: 2px solid pink;*/
 }
 .img-box img {
     max-width: 880px;

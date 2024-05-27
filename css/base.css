@@ -57,14 +57,12 @@ h1:hover {
 /*cajas*/
 .box1 {
     flex-grow: 1;
-    /*border: 3px solid yellow;*/
 }
 .box1 a {
     text-decoration: none;
 }
 .box2 {
     flex-grow: 3;
-    /*border: 3px solid green;*/
 }
 /*cabecera y menu*/
 header {
@@ -73,7 +71,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*border: 3px solid red;*/
     padding: 25px;
 }
 header nav div {
@@ -117,7 +114,6 @@ section {
     max-width: 1480px;
     min-height: 680px;
     padding: 0 10px 0 10px;
-    /*border: 3px solid purple;*/
     justify-content: center;
     align-items: center;
 }
@@ -142,7 +138,6 @@ section {
 /*pie de página*/
 footer {
     min-height: 50px;
-    /*border: 3px solid orange;*/
     padding: 8px;
 }
 .copyright {
@@ -178,8 +173,8 @@ footer {
 .mb-30 {
     margin-bottom: 30px;
 }
-.max-width-750 {
-    max-width: 750px;
+.max-width-775 {
+    max-width: 775px;
     margin: 0 auto;
 }
 
