@@ -6,3 +6,8 @@ h2 {
     font-weight: 700;
     margin-bottom: 20px;
 }
+.info-project a:hover {
+    background-color: #878AF6;
+    color: white;
+    transition: 0.5s;
+}
