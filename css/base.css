@@ -178,6 +178,10 @@ footer {
 .mb-30 {
     margin-bottom: 30px;
 }
+.max-width-750 {
+    max-width: 750px;
+    margin: 0 auto;
+}
 
 /*querries*/
 @media (max-width: 576px) {
@@ -213,16 +217,6 @@ footer {
         font-size: 1.8em;
     }
 }
-.max-width-750 {
-    max-width: 750px;
-    margin: 0 auto;
-}
-/*@media (min-width: 993px) {
-    .hidden-desktop {
-        display: none;
-    }
-}*/
-
 @media (min-width: 577px) {
     .hidden-tablet-desktop  {
         display: none;
