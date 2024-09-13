@@ -22,7 +22,7 @@ a {
     font-size: 22px;
 }
 h1 {
-    font-family: "Patrick Hand", cursive;
+    font-family: "Bebas Neue", sans-serif;
     font-size: 1.6em;
     font-weight: 600;
     text-transform: uppercase;
@@ -30,8 +30,9 @@ h1 {
     border-radius: 5px;
     box-shadow: 4px 4px #878AF6;
     transition: 0.5s;
-    max-width: 305px;
+    max-width: 300px;
     min-width: 100px;
+    letter-spacing: 1px;
 }
 h1:hover {
     background: #04194D;
@@ -46,13 +47,20 @@ h1:hover {
 .fondo-form {
     background-color: #878AF6;
 }
-/*para subrayar de amarillo ciertos elementos*/
-.yellow {
-    background: #dff944;
+/*para subrayar de amarillo, morado ciertos elementos*/
+.yellow, .purple {
     margin: 0 auto;
     width: fit-content;
     padding: 0 10px;
-    border-radius: 5px
+    border-radius: 5px;
+}
+.yellow {
+    background: #dff944;
+
+}
+.purple {
+    background: #DBDAFA;
+    margin-bottom: 6px;
 }
 /*cajas*/
 .box1 {
