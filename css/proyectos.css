@@ -1,7 +1,7 @@
 h3 {
     color: #878AF6;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 1.6em;
 }
 .container-projects {
     width: 100%;
@@ -40,7 +40,7 @@ h3 {
     line-height: 2;
     display: flex;
     flex-direction: column;
-    font-size: 15px;
+    font-size: 1em;
 }
 .info-project button {
     background: #04194D;
@@ -54,7 +54,7 @@ h3 {
     letter-spacing: 2px;
     transition: 0.5s;
     margin: 15px;
-    font-size: 15px;
+    font-size: 1em;
     cursor: pointer;
 }
 .info-project button:hover {
@@ -62,7 +62,7 @@ h3 {
     color: #04194D;
 }
 .info-project p {
-    font-size: 19px;
+    font-size: 1.2em;
 }
 .info-project p a:hover {
     background-color: #878AF6;
@@ -75,4 +75,19 @@ h3 {
 .info-project button.disabled {
     background-color: rgb(207, 202, 202);
     color: #04194D;
+}
+
+/*querries*/
+@media (max-width: 576px) {
+    .info-project button {
+        font-size: 0.8em;
+    }
+    h3 {
+        font-size: 1.4em;
+    }
+}
+@media (max-width: 992px) {
+    .project img {
+        height: 180px;
+    }
 }
