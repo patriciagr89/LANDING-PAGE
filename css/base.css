@@ -120,7 +120,7 @@ header nav div a:hover, header nav div ion-icon.menu-icon:hover {
 /*propiedades del section para que se centre su contenido*/
 section {
     max-width: 1480px;
-    min-height: 680px;
+    min-height: 675px;
     padding: 0 10px 0 10px;
     justify-content: center;
     align-items: center;

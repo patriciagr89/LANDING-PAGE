@@ -3,11 +3,46 @@ h3 {
     font-weight: 600;
 }
 h2 { 
+    color: #04194D;
     font-weight: 700;
-    margin-bottom: 20px;
 }
 .info-project a:hover {
     background-color: #878AF6;
     color: white;
     transition: 0.5s;
+}
+.cv-robot {
+    max-width: 240px;
+}
+.cv-download {
+    margin-top: 35px;
+}
+/*botones para abrir y cerrar el panel acordeon*/
+.accordion {
+    background-color: #e6e7fc;
+    cursor: pointer;
+    padding: 12px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 0.9em;
+    outline: none;
+    transition: 0.4s;
+}
+.accordion:after {
+    content: '\02795'; /*Unicode (+)*/
+    font-size: 13px;
+    margin-top: 10px;
+}
+.active:after {
+    content: "\2796"; /*Unicode (-)*/
+}
+.active, .accordion:hover {
+    background-color: #878AF6;
+}
+/*panel ocultado por defecto*/
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
 }
