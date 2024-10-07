@@ -147,6 +147,7 @@ section {
 footer {
     min-height: 50px;
     padding: 8px;
+    margin-top: 28px;
 }
 .copyright {
     font-size: 1.1em;

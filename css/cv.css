@@ -6,40 +6,51 @@ h2 {
     color: #04194D;
     font-weight: 700;
 }
+footer {
+    margin-top: 0px;
+}
 .info-project a:hover {
     background-color: #878AF6;
     color: white;
-    transition: 0.5s;
+    transition: 0.4s;
 }
-.cv-robot {
+.cv-img-robot {
     max-width: 240px;
+}
+.cv-img-robot:hover {
+    transform: scale(1.1);
 }
 .cv-download {
     margin-top: 35px;
 }
 /*botones para abrir y cerrar el panel acordeon*/
 .accordion {
+    border: none;
     background-color: #e6e7fc;
-    cursor: pointer;
-    padding: 12px;
-    margin-bottom: 10px;
+    box-shadow: 5px 5px #04194D;
+    border-radius: 5px;
     width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
     font-size: 0.9em;
-    outline: none;
-    transition: 0.4s;
+    cursor: pointer;
+    transition: 0.5s;
 }
 .accordion:after {
-    content: '\02795'; /*Unicode (+)*/
-    font-size: 13px;
-    margin-top: 10px;
+    content: "\002B"; /*Unicode (+)*/
+    font-family: "Patrick Hand", cursive;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin: 10px;
 }
 .active:after {
-    content: "\2796"; /*Unicode (-)*/
+    content: "\002D"; /*Unicode (-)*/
 }
 .active, .accordion:hover {
-    background-color: #878AF6;
+    border: 1px solid #878AF6;
+    box-shadow: 10px 10px #878AF6;
 }
-/*panel ocultado por defecto*/
+/*panel (ocultado por defecto)*/
 .panel {
     padding: 0 18px;
     background-color: white;
