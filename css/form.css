@@ -14,17 +14,17 @@
     background-color: #e2e3ff;
 }
 .form-data {
-    border:1px solid #04194D;
+    border: 1px solid #04194D;
     background-color: #e6e7fc;
     padding: 20px;
     box-shadow: 6px 6px #04194D;
     border-radius: 5px;
 }
 #data:focus {
-    border-bottom: 2px solid; 
+    border-bottom: 3px solid; 
 }
 input, textarea {
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-family: "Patrick Hand", cursive;
     padding: 0 5px;
 }

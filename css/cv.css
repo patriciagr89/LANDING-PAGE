@@ -7,9 +7,6 @@ h2 {
     font-weight: 700;
     font-size: 1.4em;
 }
-footer {
-    margin-top: -55px;
-}
 .info-project a:hover {
     background-color: #878AF6;
     color: white;
@@ -22,7 +19,7 @@ footer {
     transform: scale(1.1);
 }
 .cv-download {
-    margin-top: 25px;
+    margin-top: 58px;
 }
 /*botones para abrir y cerrar el panel acordeon*/
 .accordion {
