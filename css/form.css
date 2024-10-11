@@ -1,7 +1,7 @@
 #form-box {
     border-radius: 10px;
 }
-#data {
+.data {
     border: none;
     border-bottom: 1px solid;
     outline: none;
@@ -20,7 +20,7 @@
     box-shadow: 6px 6px #04194D;
     border-radius: 5px;
 }
-#data:focus {
+.data:focus {
     border-bottom: 3px solid; 
 }
 input, textarea {
