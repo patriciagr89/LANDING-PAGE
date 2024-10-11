@@ -5,9 +5,10 @@ h3 {
 h2 { 
     color: #04194D;
     font-weight: 700;
+    font-size: 1.4em;
 }
 footer {
-    margin-top: 0px;
+    margin-top: -55px;
 }
 .info-project a:hover {
     background-color: #878AF6;
@@ -15,13 +16,13 @@ footer {
     transition: 0.4s;
 }
 .cv-img-robot {
-    max-width: 240px;
+    max-width: 200px;
 }
 .cv-img-robot:hover {
     transform: scale(1.1);
 }
 .cv-download {
-    margin-top: 35px;
+    margin-top: 25px;
 }
 /*botones para abrir y cerrar el panel acordeon*/
 .accordion {
@@ -30,7 +31,7 @@ footer {
     box-shadow: 5px 5px #04194D;
     border-radius: 5px;
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     margin-bottom: 18px;
     font-size: 0.9em;
     cursor: pointer;
@@ -41,14 +42,13 @@ footer {
     font-family: "Patrick Hand", cursive;
     font-size: 1.6em;
     font-weight: 600;
-    margin: 10px;
 }
 .active:after {
     content: "\002D"; /*Unicode (-)*/
 }
 .active, .accordion:hover {
     border: 1px solid #878AF6;
-    box-shadow: 8px 10px #878AF6;
+    box-shadow: 8px 8px #878AF6;
 }
 /*panel (ocultado por defecto)*/
 .panel {

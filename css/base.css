@@ -162,7 +162,6 @@ footer {
 }
 .social-media ion-icon:hover {
     transform: scale(1.1);
-    box-shadow: 3px 3px #878AF6;
     background: #DFF944;
     border-radius: 50%;
 }
