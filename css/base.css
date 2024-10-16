@@ -41,8 +41,9 @@ h1:hover {
     font-weight: 400;
 }
 h3 {
-    color: #6064F6;
+    color: #7477F6;
     font-weight: 600;
+    letter-spacing: 1px;
 }
 /*fondos*/
 .fondo-neutro {
@@ -96,7 +97,7 @@ header nav div a, header nav div ion-icon.menu-icon {
     padding: 4px;
 }
 header nav div a:hover, header nav div ion-icon.menu-icon:hover {
-    color:#6064F6;
+    color:#7477F6;
 }
 .menu-item {
     padding: 0.6em;
