@@ -243,3 +243,15 @@ footer {
         display: none;
     }
 }
+
+@media (max-width: 1296px) {
+    .img-disabled {
+        display: block; 
+    }
+}
+
+@media (min-width: 1297px) {
+    .img-disabled {
+        display: none; 
+    }
+}
