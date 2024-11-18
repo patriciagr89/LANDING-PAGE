@@ -125,8 +125,8 @@ header nav div a:hover, header nav div ion-icon.menu-icon:hover {
 /*propiedades del section para que se centre su contenido*/
 section {
     max-width: 1480px;
-    min-height: 675px;
-    padding: 0 10px 0 10px;
+    min-height: 70vh;
+    padding: 0 10px;
     justify-content: center;
     align-items: center;
 }
@@ -152,7 +152,7 @@ section {
 footer {
     min-height: 50px;
     padding: 8px;
-    margin-top: 28px;
+    margin-top: 35px;
 }
 .copyright {
     font-size: 1.1em;
@@ -243,13 +243,11 @@ footer {
         display: none;
     }
 }
-
 @media (max-width: 1296px) {
     .img-disabled {
         display: block; 
     }
 }
-
 @media (min-width: 1297px) {
     .img-disabled {
         display: none; 

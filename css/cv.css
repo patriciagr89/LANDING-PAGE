@@ -9,13 +9,18 @@ h2 {
     transition: 0.4s;
 }
 .cv-img-robot {
-    max-width: 200px;
+    max-width: 250px;
+    width: 100%;
+    margin-bottom: -65px;
+    position: relative;
+    bottom: 5vh;
+    right: 17%;
 }
-.cv-img-robot:hover {
-    transform: scale(1.2);
+section {
+    min-height: 62vh;
 }
-.cv-download {
-    margin-top: 58px;
+.max-width-860 {
+    margin-top: 7vh;
 }
 /*botones para abrir y cerrar el panel acordeon*/
 .accordion {
@@ -49,4 +54,11 @@ h2 {
     background-color: white;
     display: none;
     overflow: hidden;
+}
+
+@media (max-width: 577px) {
+    .cv-img-robot {
+        max-width: 190px;
+        right: 25%;
+    }
 }
