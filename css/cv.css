@@ -16,8 +16,20 @@ h2 {
     bottom: 5vh;
     right: 17%;
 }
+
+.cv-text-robot {
+    font-style: oblique;
+    max-width: 350px;
+    position: relative;
+    padding: 0 38px;
+    bottom: 13vh;
+    left: 48%;
+}
 section {
     min-height: 62vh;
+}
+footer {
+    margin-top: 0;
 }
 .max-width-860 {
     margin-top: 7vh;
@@ -60,5 +72,9 @@ section {
     .cv-img-robot {
         max-width: 190px;
         right: 25%;
+    }
+    .cv-text-robot {
+        max-width: 200px;
+        padding: 0 14px;
     }
 }
